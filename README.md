@@ -9,6 +9,7 @@ It renames all files and folders except itself. It will only rename at the level
 Files that have already been renamed are ignored.
 It determines the creation, modification and access date and uses the oldest date for renaming.
 If the name of a file/folder starts with `noname`, it will be replaced completely, otherwise a prefix will be appended.
+If the new file name already exists, a counter is incremented and added as a suffix after the file name.
 If an error occurs, the renaming of the current file/folder is skipped.
 > [!WARNING]
 > The oldest renamed date may not be the original creation date. This script cannot solve the problem that, for example, someone has forgotten to set the correct date in a camera.
